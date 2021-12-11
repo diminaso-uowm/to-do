@@ -1,0 +1,119 @@
+body {
+	background: url("../images/pexels-polina-kovaleva-5717479.jpg") no-repeat center fixed;
+	background-size: cover;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	margin: 0;
+}
+
+h1#title {
+	font-family: 'Acme', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-size: 50px;
+	color: #ffffff;
+	text-shadow: 0 0 20px #000000;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	position: relative;
+}
+
+h2 {
+	color: #ffffff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 22px;
+	line-height: 65px;
+}
+
+a {
+	text-decoration: none;
+	color: #5f4334;
+}
+
+a:hover {
+	color: #af7a5c;
+}
+
+p.link {
+	font-size: 14px;
+	margin: 20px 0 0;
+}
+
+.container {
+	margin: 0;
+}
+
+.to-do-title {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.client-area {
+	background-color: #ffffff;
+	max-width: 340px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 30px;
+	border-radius: 10px;
+	box-shadow: 0 5px 20px #000000;
+	text-align: center;
+}
+
+.client-area .client-header {
+	background-color: #5f4334;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.client-area label {
+	font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+	font-size: 13px;
+	color: #5f4334;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+
+.client-area input {
+	font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+	padding: 8px;
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	font-size: 13px;
+	color: #5f4334;
+}
+
+.client-area input:focus {
+	outline: none;
+	border-color: #5f4334;
+	transition: 0.5s;
+	color: #000000;
+}
+
+.client-area button {
+	margin-top: 0px;
+	border: 0;
+	font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+	letter-spacing: 1px;
+	background-color: #5f4334;
+	cursor:pointer;
+	outline: none;
+}
+
+.client-area button:hover {
+	opacity: 0.8;
+	transition: 0.5s;
+}
